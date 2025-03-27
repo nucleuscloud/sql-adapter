@@ -1,13 +1,14 @@
-module github.com/Blank-Xu/sql-adapter-test
+module github.com/nucleuscloud/sql-adapter-test
 
-go 1.21
+go 1.24
+
 toolchain go1.24.1
 
-replace github.com/Blank-Xu/sql-adapter => ../.
+replace github.com/nucleuscloud/sql-adapter => ../.
 
 require (
-	github.com/Blank-Xu/sql-adapter v0.0.0-00010101000000-000000000000
-	github.com/casbin/casbin/v2 v2.103.0
+	github.com/nucleuscloud/sql-adapter v0.0.0-00010101000000-000000000000
+	github.com/casbin/casbin/v2 v2.104.0
 	github.com/go-sql-driver/mysql v1.8.1
 	github.com/lib/pq v1.10.9
 	github.com/microsoft/go-mssqldb v1.8.0
@@ -26,10 +27,10 @@ require (
 	github.com/mattn/go-isatty v0.0.20 // indirect
 	github.com/ncruces/go-strftime v0.1.9 // indirect
 	github.com/remyoudompheng/bigfft v0.0.0-20230129092748-24d4a6f8daec // indirect
-	golang.org/x/crypto v0.35.0 // indirect
-	golang.org/x/net v0.36.0 // indirect
-	golang.org/x/sys v0.30.0 // indirect
-	golang.org/x/text v0.22.0 // indirect
+	golang.org/x/crypto v0.28.0 // indirect
+	golang.org/x/net v0.30.0 // indirect
+	golang.org/x/sys v0.26.0 // indirect
+	golang.org/x/text v0.19.0 // indirect
 	modernc.org/gc/v3 v3.0.0-20240107210532-573471604cb6 // indirect
 	modernc.org/libc v1.55.3 // indirect
 	modernc.org/mathutil v1.6.0 // indirect

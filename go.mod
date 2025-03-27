@@ -1,4 +1,4 @@
-module github.com/Blank-Xu/sql-adapter
+module github.com/nucleuscloud/sql-adapter
 
 go 1.24
 

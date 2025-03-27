@@ -1,11 +1,11 @@
 # sql-adapter
 
-[![Go Report Card](https://goreportcard.com/badge/github.com/Blank-Xu/sql-adapter)](https://goreportcard.com/report/github.com/Blank-Xu/sql-adapter)
-[![Build Status](https://github.com/Blank-Xu/sql-adapter/actions/workflows/tests.yaml/badge.svg)](https://github.com/Blank-Xu/sql-adapter/actions)
+[![Go Report Card](https://goreportcard.com/badge/github.com/nucleuscloud/sql-adapter)](https://goreportcard.com/report/github.com/nucleuscloud/sql-adapter)
+[![Build Status](https://github.com/nucleuscloud/sql-adapter/actions/workflows/tests.yaml/badge.svg)](https://github.com/nucleuscloud/sql-adapter/actions)
 [![Coverage Status](https://coveralls.io/repos/github/Blank-Xu/sql-adapter/badge.svg?branch=master)](https://coveralls.io/github/Blank-Xu/sql-adapter?branch=master)
-[![PkgGoDev](https://pkg.go.dev/badge/github.com/Blank-Xu/sql-adapter)](https://pkg.go.dev/github.com/Blank-Xu/sql-adapter)
-[![Release](https://img.shields.io/github/release/Blank-Xu/sql-adapter.svg)](https://github.com/Blank-Xu/sql-adapter/releases/latest)
-[![Sourcegraph](https://sourcegraph.com/github.com/Blank-Xu/sql-adapter/-/badge.svg)](https://sourcegraph.com/github.com/Blank-Xu/sql-adapter?badge)
+[![PkgGoDev](https://pkg.go.dev/badge/github.com/nucleuscloud/sql-adapter)](https://pkg.go.dev/github.com/nucleuscloud/sql-adapter)
+[![Release](https://img.shields.io/github/release/Blank-Xu/sql-adapter.svg)](https://github.com/nucleuscloud/sql-adapter/releases/latest)
+[![Sourcegraph](https://sourcegraph.com/github.com/nucleuscloud/sql-adapter/-/badge.svg)](https://sourcegraph.com/github.com/nucleuscloud/sql-adapter?badge)
 [![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 
 ---
@@ -30,15 +30,15 @@ With this library, Casbin can load policy lines or save policy lines from suppor
 ## Installation
 
 ```sh
-go get github.com/Blank-Xu/sql-adapter
+go get github.com/nucleuscloud/sql-adapter
 ```
 
 ## Examples
 
-- [database/sql](https://github.com/Blank-Xu/sql-adapter/blob/master/examples/database_sql)
-- [sqlx](https://github.com/Blank-Xu/sql-adapter/tree/master/examples/sqlx)
-- [xorm](https://github.com/Blank-Xu/sql-adapter/tree/master/examples/xorm)
-- [gorm](https://github.com/Blank-Xu/sql-adapter/tree/master/examples/gorm)
+- [database/sql](https://github.com/nucleuscloud/sql-adapter/blob/master/examples/database_sql)
+- [sqlx](https://github.com/nucleuscloud/sql-adapter/tree/master/examples/sqlx)
+- [xorm](https://github.com/nucleuscloud/sql-adapter/tree/master/examples/xorm)
+- [gorm](https://github.com/nucleuscloud/sql-adapter/tree/master/examples/gorm)
 
 ### Simple example for MySQL
 
@@ -51,7 +51,7 @@ import (
     "runtime"
     "time"
 
-    sqladapter "github.com/Blank-Xu/sql-adapter"
+    sqladapter "github.com/nucleuscloud/sql-adapter"
     "github.com/casbin/casbin/v2"
     _ "github.com/go-sql-driver/mysql"
 )
