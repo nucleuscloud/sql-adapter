@@ -7,8 +7,8 @@ import (
 	"os"
 	"strings"
 
-	sqladapter "github.com/Blank-Xu/sql-adapter"
 	"github.com/casbin/casbin/v2"
+	sqladapter "github.com/nucleuscloud/sql-adapter"
 
 	"gorm.io/driver/mysql"
 	"gorm.io/gorm"

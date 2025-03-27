@@ -10,8 +10,8 @@ import (
 
 	_ "github.com/go-sql-driver/mysql"
 
-	sqladapter "github.com/Blank-Xu/sql-adapter"
 	"github.com/casbin/casbin/v2"
+	sqladapter "github.com/nucleuscloud/sql-adapter"
 
 	"xorm.io/xorm"
 )
